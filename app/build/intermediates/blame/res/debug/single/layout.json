@@ -1,7 +1,27 @@
 [
     {
+        "merged": "C:\\Users\\Yishion\\Desktop\\AndroidLabProject-master\\lab_notepad\\NotePad-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\noteslist_item.xml",
+        "source": "C:\\Users\\Yishion\\Desktop\\AndroidLabProject-master\\lab_notepad\\NotePad-master\\app\\src\\main\\res\\layout\\noteslist_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\Yishion\\Desktop\\AndroidLabProject-master\\lab_notepad\\NotePad-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\note_editor.xml",
+        "source": "C:\\Users\\Yishion\\Desktop\\AndroidLabProject-master\\lab_notepad\\NotePad-master\\app\\src\\main\\res\\layout\\note_editor.xml"
+    },
+    {
+        "merged": "C:\\Users\\Yishion\\Desktop\\AndroidLabProject-master\\lab_notepad\\NotePad-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\color_style.xml",
+        "source": "C:\\Users\\Yishion\\Desktop\\AndroidLabProject-master\\lab_notepad\\NotePad-master\\app\\src\\main\\res\\layout\\color_style.xml"
+    },
+    {
         "merged": "C:\\Users\\Yishion\\Desktop\\lab_notepad\\NotePad-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\note_editor.xml",
         "source": "C:\\Users\\Yishion\\Desktop\\lab_notepad\\NotePad-master\\app\\src\\main\\res\\layout\\note_editor.xml"
+    },
+    {
+        "merged": "C:\\Users\\Yishion\\Desktop\\AndroidLabProject-master\\lab_notepad\\NotePad-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\search_style.xml",
+        "source": "C:\\Users\\Yishion\\Desktop\\AndroidLabProject-master\\lab_notepad\\NotePad-master\\app\\src\\main\\res\\layout\\search_style.xml"
+    },
+    {
+        "merged": "C:\\Users\\Yishion\\Desktop\\AndroidLabProject-master\\lab_notepad\\NotePad-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\title_editor.xml",
+        "source": "C:\\Users\\Yishion\\Desktop\\AndroidLabProject-master\\lab_notepad\\NotePad-master\\app\\src\\main\\res\\layout\\title_editor.xml"
     },
     {
         "merged": "C:\\Users\\Yishion\\Desktop\\lab_notepad\\NotePad-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\noteslist_item.xml",

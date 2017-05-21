@@ -1,10 +1,18 @@
 [
     {
+        "merged": "C:\\Users\\Yishion\\Desktop\\AndroidLabProject-master\\lab_notepad\\NotePad-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi\\live_folder_notes.png",
+        "source": "C:\\Users\\Yishion\\Desktop\\AndroidLabProject-master\\lab_notepad\\NotePad-master\\app\\src\\main\\res\\drawable-ldpi\\live_folder_notes.png"
+    },
+    {
         "merged": "C:\\Users\\Yishion\\Desktop\\lab_notepad\\NotePad-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi\\live_folder_notes.png",
         "source": "C:\\Users\\Yishion\\Desktop\\lab_notepad\\NotePad-master\\app\\src\\main\\res\\drawable-ldpi\\live_folder_notes.png"
     },
     {
         "merged": "C:\\Users\\Yishion\\Desktop\\lab_notepad\\NotePad-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi\\app_notes.png",
         "source": "C:\\Users\\Yishion\\Desktop\\lab_notepad\\NotePad-master\\app\\src\\main\\res\\drawable-ldpi\\app_notes.png"
+    },
+    {
+        "merged": "C:\\Users\\Yishion\\Desktop\\AndroidLabProject-master\\lab_notepad\\NotePad-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi\\app_notes.png",
+        "source": "C:\\Users\\Yishion\\Desktop\\AndroidLabProject-master\\lab_notepad\\NotePad-master\\app\\src\\main\\res\\drawable-ldpi\\app_notes.png"
     }
 ]
