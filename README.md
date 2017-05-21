@@ -260,4 +260,4 @@ NoteList-->OnCreate加载时需要加载配置文件，并获取配置文件中�
 
 ### 排序
 
-![paixu](paixu.jog)
+![paixu](paixu.png)
