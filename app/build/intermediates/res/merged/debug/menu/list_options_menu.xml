@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--搜索框菜单按钮。到NodeList里面就绑定成SearchView组件-->
+    <item android:id="@+id/menu_search"
+        android:icon="@drawable/ic_menu_compose"
+        android:title="@string/menu_add"
+        android:alphabeticShortcut='s'
+        android:showAsAction="always" />
+
+    <!-- 比较尴尬，这个是拿来还原搜索结果的菜单按钮，因为显示的数据只能通过修改游标才能还原，
+    不然就无法显示所有的数据了-->
+    <item android:id="@+id/menu_all"
+        android:icon="@drawable/ic_menu_revert"
+        android:title="@string/menu_add"
+        android:alphabeticShortcut='A'
+        android:showAsAction="always"
+        />
+    <!--  This is our one standard application action (creating a new note). -->
+    <item android:id="@+id/menu_add"
+          android:icon="@drawable/ic_menu_compose"
+          android:title="@string/menu_add"
+          android:alphabeticShortcut='a'
+          android:showAsAction="always" />
+
+    <!--  If there is currently data in the clipboard, this adds a PASTE menu item to the menu
+          so that the user can paste in the data.. -->
+    <item android:id="@+id/menu_paste"
+          android:icon="@drawable/ic_menu_compose"
+          android:title="@string/menu_paste"
+          android:alphabeticShortcut='p' />
+    <!-- 背景颜色 -->
+    <item android:id="@+id/menu_color"
+        android:title="@string/menu_color"
+        android:alphabeticShortcut='c' />
+
+    <!-- 排序菜单列表-->
+    <item android:title="@string/menu_sort">
+        <menu>
+            <!-- 默认按修改时间降序，见NotePad契约类-->
+            <item android:title="@string/menu_sort_default"
+                android:id="@+id/sort_default" />
+            <!-- 标题升序-->
+            <item android:title="@string/menu_sort_title_asc"
+                android:id="@+id/sort_title_asc"/>
+            <!-- 标题降序-->
+            <item android:title="@string/menu_sort_title_desc"
+                android:id="@+id/sort_title_desc" />
+            <!-- 创建时间升序-->
+            <item android:title="@string/menu_sort_date_asc"
+                android:id="@+id/sort_date_asc" />
+            <!-- 创建时间降序-->
+            <item android:id="@+id/sort_date_desc"
+                android:title="@string/menu_sort_date_desc" />
+        </menu>
+    </item>
+    <!--导入按钮 -->
+    <item android:title="@string/menu_import"
+        android:id="@+id/menu_import" />
+</menu>

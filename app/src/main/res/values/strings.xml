@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2007 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+  
+          http://www.apache.org/licenses/LICENSE-2.0
+  
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+
+<resources>
+    <string name="app_name">NotePad</string>
+    <string name="live_folder_name">Notes</string>
+
+    <string name="title_edit_title">Note title:</string>
+    <string name="title_create">New note</string>
+    <string name="title_edit">Edit: %1$s</string>
+    <string name="title_notes_list">Notes</string>
+    <string name="title_color_list">Select Background Color</string>
+
+    <string name="menu_add">New note</string>
+    <string name="menu_save">Save</string>
+    <string name="menu_delete">Delete</string>
+    <string name="menu_open">Open</string>
+    <string name="menu_revert">Revert changes</string>
+    <string name="menu_copy">Copy</string>
+    <string name="menu_paste">Paste</string>
+    <string name="menu_color">Color</string>
+    <string name="menu_export">Export</string>
+    <string name="menu_import">Import</string>
+    <string name="menu_sort">Sort</string>
+    <string name="menu_sort_default">Default</string>
+    <string name="menu_sort_title_asc">Title ASC</string>
+    <string name="menu_sort_title_desc">Title DESC</string>
+    <string name="menu_sort_date_asc">Date ASC</string>
+    <string name="menu_sort_date_desc">Date DESC</string>
+
+
+    <string name="button_ok">OK</string>
+    <string name="text_title">Title:</string>
+
+    <string name="resolve_edit">Edit note</string>
+    <string name="resolve_title">Edit title</string>
+
+    <string name="error_title">Error</string>
+
+    <string name="error_message">Error loading note</string>
+    <string name="nothing_to_save">There is nothing to save</string>
+    <drawable name="bkdougello">#EB8E55</drawable>
+    <drawable name="bkbanana">#E3CF57</drawable>
+    <drawable name="bkwhite">#FFFFFF</drawable>
+    <drawable name="bkshibanhui">#708069</drawable>
+    <drawable name="bkfenhong">#FFC0CB</drawable>
+    <drawable name="bkmeiguihong">#BC8F8F</drawable>
+    <drawable name="bkqianhuilan">#B0E0E6</drawable>
+    <drawable name="bkbohe">#BDFCC9</drawable>
+</resources>
