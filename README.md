@@ -260,4 +260,68 @@ NoteList-->OnCreate加载时需要加载配置文件，并获取配置文件中�
 
 ### 排序
 
+前面那个SharedPreferences个里已经定义了sort类型了，就可以直接set进去。
+!-- 排序菜单列表-->
+    <item android:title="@string/menu_sort">
+        <menu>
+            <!-- 默认按修改时间降序，见NotePad契约类-->
+            <item android:title="@string/menu_sort_default"
+                android:id="@+id/sort_default" />
+            <!-- 标题升序-->
+            <item android:title="@string/menu_sort_title_asc"
+                android:id="@+id/sort_title_asc"/>
+            <!-- 标题降序-->
+            <item android:title="@string/menu_sort_title_desc"
+                android:id="@+id/sort_title_desc" />
+            <!-- 创建时间升序-->
+            <item android:title="@string/menu_sort_date_asc"
+                android:id="@+id/sort_date_asc" />
+            <!-- 创建时间降序-->
+            <item android:id="@+id/sort_date_desc"
+                android:title="@string/menu_sort_date_desc" />
+        </menu>
+    </item>添加属性并在OnCreate加载配置：//排序类型
+    private int sortType;
+    ...
+    
+    //获取排序值
+    value = params.get("sort");
+    sortType = Integer.parseInt(value);
+排序类型先在NotePad中写个契约类吧：public static final class SortType implements BaseColumns{
+        /**
+         * 排序类型契约：
+         * SORT_DEFALUT 默认排序，即修改时间降序
+         * SORT_TITLE_ASC 标题升序
+         * SORT_TITLE_DESC 标题降序
+         * SORT_CREATEDATE_ASC 创建时间升序
+         * SORT_CREATEDATE_DESC 创建时间降序
+         */
+        public static final  int  SORT_DEFALUT=0;
+        public static final  int  SORT_TITLE_ASC=1;
+        public static final  int  SORT_TITLE_DESC=2;
+        public static final  int  SORT_CREATEDATE_ASC=3;
+        public static final  int  SORT_CREATEDATE_DESC=4;
+    }
+写个函数返回排序字符串：/**
+     * 获取排序类型
+     * @param type 排序类型
+     * @return 返回数据库排序字符串
+     */
+    private String getSortType(int type){
+        if(type == NotePad.SortType.SORT_TITLE_ASC)//标题升序
+            return NotePad.Notes.COLUMN_NAME_TITLE + " ASC";
+        if(type == NotePad.SortType.SORT_TITLE_DESC)//标题降序
+            return NotePad.Notes.COLUMN_NAME_TITLE + " DESC";
+        if(type == NotePad.SortType.SORT_CREATEDATE_ASC)//创建时间升序
+            return NotePad.Notes.COLUMN_NAME_CREATE_DATE + " ASC";
+        if(type == NotePad.SortType.SORT_CREATEDATE_DESC)//创建时间降序
+            return NotePad.Notes.COLUMN_NAME_CREATE_DATE + " DESC";
+        else//默认
+            return NotePad.Notes.DEFAULT_SORT_ORDER;
+    }
+
+
+
+
+
 ![paixu](paixu.png)
