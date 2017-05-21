@@ -1,4 +1,7 @@
-#Sun May 21 17:39:15 CST 2017
-base.0=C\:\\Users\\Yishion\\Desktop\\AndroidLabProject-master\\lab_notepad\\NotePad-master\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\1f\\main
-renamed.0=classes.dex
-file.0=C\:\\Users\\Yishion\\Desktop\\AndroidLabProject-master\\lab_notepad\\NotePad-master\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\1f\\main\\classes.dex
+#Sun May 21 18:52:20 CST 2017
+base.0=C\:\\Users\\Yishion\\Desktop\\lab_notepad\\NotePad-master\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_e8467ca9c781ba7d1727c9b0f4b35bdb06698b68
+renamed.1=classes.dex
+renamed.0=classes2.dex
+file.1=C\:\\Users\\Yishion\\Desktop\\lab_notepad\\NotePad-master\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_1ac04fe6f0620e64ab9b217e1ad4bcf1e18fb97f\\classes.dex
+base.1=C\:\\Users\\Yishion\\Desktop\\lab_notepad\\NotePad-master\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_1ac04fe6f0620e64ab9b217e1ad4bcf1e18fb97f
+file.0=C\:\\Users\\Yishion\\Desktop\\lab_notepad\\NotePad-master\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_e8467ca9c781ba7d1727c9b0f4b35bdb06698b68\\classes.dex
