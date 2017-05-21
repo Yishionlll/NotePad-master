@@ -4,28 +4,8 @@
         "source": "C:\\Users\\Yishion\\Desktop\\lab_notepad\\NotePad-master\\app\\src\\main\\res\\drawable-hdpi\\ic_menu_delete.png"
     },
     {
-        "merged": "C:\\Users\\Yishion\\Desktop\\AndroidLabProject-master\\lab_notepad\\NotePad-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_menu_delete.png",
-        "source": "C:\\Users\\Yishion\\Desktop\\AndroidLabProject-master\\lab_notepad\\NotePad-master\\app\\src\\main\\res\\drawable-hdpi\\ic_menu_delete.png"
-    },
-    {
         "merged": "C:\\Users\\Yishion\\Desktop\\lab_notepad\\NotePad-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_menu_edit.png",
         "source": "C:\\Users\\Yishion\\Desktop\\lab_notepad\\NotePad-master\\app\\src\\main\\res\\drawable-hdpi\\ic_menu_edit.png"
-    },
-    {
-        "merged": "C:\\Users\\Yishion\\Desktop\\AndroidLabProject-master\\lab_notepad\\NotePad-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_menu_revert.png",
-        "source": "C:\\Users\\Yishion\\Desktop\\AndroidLabProject-master\\lab_notepad\\NotePad-master\\app\\src\\main\\res\\drawable-hdpi\\ic_menu_revert.png"
-    },
-    {
-        "merged": "C:\\Users\\Yishion\\Desktop\\AndroidLabProject-master\\lab_notepad\\NotePad-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_menu_save.png",
-        "source": "C:\\Users\\Yishion\\Desktop\\AndroidLabProject-master\\lab_notepad\\NotePad-master\\app\\src\\main\\res\\drawable-hdpi\\ic_menu_save.png"
-    },
-    {
-        "merged": "C:\\Users\\Yishion\\Desktop\\AndroidLabProject-master\\lab_notepad\\NotePad-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_menu_edit.png",
-        "source": "C:\\Users\\Yishion\\Desktop\\AndroidLabProject-master\\lab_notepad\\NotePad-master\\app\\src\\main\\res\\drawable-hdpi\\ic_menu_edit.png"
-    },
-    {
-        "merged": "C:\\Users\\Yishion\\Desktop\\AndroidLabProject-master\\lab_notepad\\NotePad-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\app_notes.png",
-        "source": "C:\\Users\\Yishion\\Desktop\\AndroidLabProject-master\\lab_notepad\\NotePad-master\\app\\src\\main\\res\\drawable-hdpi\\app_notes.png"
     },
     {
         "merged": "C:\\Users\\Yishion\\Desktop\\lab_notepad\\NotePad-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_menu_save.png",
@@ -44,15 +24,7 @@
         "source": "C:\\Users\\Yishion\\Desktop\\lab_notepad\\NotePad-master\\app\\src\\main\\res\\drawable-hdpi\\app_notes.png"
     },
     {
-        "merged": "C:\\Users\\Yishion\\Desktop\\AndroidLabProject-master\\lab_notepad\\NotePad-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\live_folder_notes.png",
-        "source": "C:\\Users\\Yishion\\Desktop\\AndroidLabProject-master\\lab_notepad\\NotePad-master\\app\\src\\main\\res\\drawable-hdpi\\live_folder_notes.png"
-    },
-    {
         "merged": "C:\\Users\\Yishion\\Desktop\\lab_notepad\\NotePad-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_menu_compose.png",
         "source": "C:\\Users\\Yishion\\Desktop\\lab_notepad\\NotePad-master\\app\\src\\main\\res\\drawable-hdpi\\ic_menu_compose.png"
-    },
-    {
-        "merged": "C:\\Users\\Yishion\\Desktop\\AndroidLabProject-master\\lab_notepad\\NotePad-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_menu_compose.png",
-        "source": "C:\\Users\\Yishion\\Desktop\\AndroidLabProject-master\\lab_notepad\\NotePad-master\\app\\src\\main\\res\\drawable-hdpi\\ic_menu_compose.png"
     }
 ]
