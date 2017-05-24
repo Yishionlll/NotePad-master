@@ -1,8 +1,22 @@
 # NotePad
 
-首先会有一个菜单，可以选择背景颜色或者排序方式等
+
+
+
+
+
+
+## 简述
+    这个应用主要可以用于记录，类似于备忘录，可以对此标题下的内容进行修改等等，可以切换不同的颜色背景，默认是根据修改笔记的时间来进行排序，当然排序方式可以选择。
+
+
+首先会有一个菜单，可以选择背景颜色或者排序方式等（我自己的手机上是长按菜单键）
 
 ![menu](menu.jpg)
+
+
+
+
 ## 应用功能————基础功能
 
 ### 添加时间戳
@@ -79,7 +93,8 @@ public void onCreate(SQLiteDatabase db) {
 ### 模糊查询
 借鉴别人的方法，来到NoteList，创建一个SearchView成员变量：//成员变量：SearchView组件
     private SearchView searchView;
-看他博客是在onCreateOptionsMenu 里面初始化样式的，就跟着做呗。@Override
+看他博客是在onCreateOptionsMenu 里面初始化样式的。
+@Override
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate menu from XML resource
         MenuInflater inflater = getMenuInflater();
@@ -124,7 +139,8 @@ public void onCreate(SQLiteDatabase db) {
 ### 修改背景颜色
 这一块自己不是很会，借鉴了别人的
 
-因为是自定义的颜色按钮（textView点击事件），用户偏好设置要自己保存到SharedPreferences，新建一个类，获取和保存SharedPreferences的键值对：public class PreferencesService {
+因为是自定义的颜色按钮（textView点击事件），用户偏好设置要自己保存到SharedPreferences，新建一个类，获取和保存SharedPreferences的键值对：
+public class PreferencesService {
     private Context context;
 
     public PreferencesService(Context context) {
@@ -159,14 +175,17 @@ public void onCreate(SQLiteDatabase db) {
 
 }
 
-list_options_menu添加颜色菜单，其实就是在右上角列表里的一个按钮:<!-- 背景颜色 -->
+list_options_menu添加颜色菜单，其实就是在右上角列表里的一个按钮:
+<!-- 背景颜色 -->
     <item android:id="@+id/menu_color"
         android:title="@string/menu_color"
-        android:alphabeticShortcut='c' />NoteList里添加一个操作配置文件和一个属性保存背景颜色值的属性：//偏好设置
+        android:alphabeticShortcut='c' />NoteList里添加一个操作配置文件和一个属性保存背景颜色值的属性：
+        //偏好设置
 private PreferencesService service;
 //背景颜色
 private int color;
-NoteList-->OnCreate加载时需要加载配置文件，并获取配置文件中的颜色值//设置背景色
+NoteList-->OnCreate加载时需要加载配置文件，并获取配置文件中的颜色值
+//设置背景色
         service = new PreferencesService(this);
         //获取配置文件的键值对
         Map<String, String> params = service.getPerferences();
@@ -257,7 +276,6 @@ NoteList-->OnCreate加载时需要加载配置文件，并获取配置文件中�
 
 ![background](background.png)
 
-![color](color.png)
 
 
 ### 排序
@@ -321,9 +339,5 @@ NoteList-->OnCreate加载时需要加载配置文件，并获取配置文件中�
         else//默认
             return NotePad.Notes.DEFAULT_SORT_ORDER;
     }
-
-
-
-
 
 ![paixu](paixu.png)
